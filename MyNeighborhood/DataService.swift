@@ -15,7 +15,7 @@ class DataService {
     static let instance = DataService()
     
     let KEY_POSTS = "posts"
-    fileprivate var _loadedPosts = [Post]()
+    private var _loadedPosts = [Post]()
     
     var loadedPosts: [Post] {
         return _loadedPosts
